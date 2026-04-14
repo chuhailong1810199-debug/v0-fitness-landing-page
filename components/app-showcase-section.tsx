@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import { Dumbbell, Flame, Clock, TrendingUp, Target, Zap } from "lucide-react"
@@ -130,10 +131,13 @@ export function AppShowcaseSection() {
         {/* CTA */}
         <div className="mt-16 text-center">
           <Button
+            asChild
             size="lg"
             className="px-12 py-6 text-lg font-semibold uppercase tracking-wider transition-all duration-300 hover:scale-105"
           >
-            Access the App
+            <Link href="https://fitness-app-azure-eight.vercel.app">
+              Access the App →
+            </Link>
           </Button>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export function HeroSection() {
   return (
@@ -33,10 +34,13 @@ export function HeroSection() {
         </p>
 
         <Button
+          asChild
           size="lg"
           className="mt-10 px-10 py-6 text-lg font-semibold uppercase tracking-wider transition-all duration-300 hover:scale-105"
         >
-          Start Training
+          <Link href="https://fitness-app-azure-eight.vercel.app">
+            Start Training →
+          </Link>
         </Button>
       </div>
     </section>
