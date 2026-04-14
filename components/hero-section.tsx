@@ -38,7 +38,7 @@ export function HeroSection() {
           size="lg"
           className="mt-10 px-10 py-6 text-lg font-semibold uppercase tracking-wider transition-all duration-300 hover:scale-105"
         >
-          <Link href="https://fitness-app-azure-eight.vercel.app">
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeMJ11udwoqW2Hj3n3jzlJSNWSBTSn9gbDrIS-aZ7SWb0ZGVw/viewform" target="_blank">
             Start Training →
           </Link>
         </Button>
